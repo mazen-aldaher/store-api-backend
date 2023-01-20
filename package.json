@@ -1,0 +1,29 @@
+{
+  "name": "store-api-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/server.ts",
+    "build":"tsc",
+    "start": "npm run build && node dist/server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazen-aldaher/store-api-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazen-aldaher/store-api-backend/issues"
+  },
+  "homepage": "https://github.com/mazen-aldaher/store-api-backend#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
